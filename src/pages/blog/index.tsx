@@ -7,9 +7,9 @@ export default function Blog() {
         <div className="article flex-column" style={{ gap:"20px" }}>
           <h3 style={{padding:"0 10px" , fontSize:"20px" , fontWeight:"bolder"}}>Title Of Article !</h3>
           <div className="article-imgs">
-            <img className="img1" src="https://th.bing.com/th/id/OIF.V4k7jo6BXq6twYqWQ4p6gQ?rs=1&pid=ImgDetMain" />
-            <img className="img2" src="https://th.bing.com/th/id/OIF.V4k7jo6BXq6twYqWQ4p6gQ?rs=1&pid=ImgDetMain" />
-            <img className="img3" src="https://th.bing.com/th/id/OIF.V4k7jo6BXq6twYqWQ4p6gQ?rs=1&pid=ImgDetMain" />
+            <img alt="article-img" className="img1" src="https://th.bing.com/th/id/OIF.V4k7jo6BXq6twYqWQ4p6gQ?rs=1&pid=ImgDetMain" />
+            <img alt="article-img" className="img2" src="https://th.bing.com/th/id/OIF.V4k7jo6BXq6twYqWQ4p6gQ?rs=1&pid=ImgDetMain" />
+            <img alt="article-img" className="img3" src="https://th.bing.com/th/id/OIF.V4k7jo6BXq6twYqWQ4p6gQ?rs=1&pid=ImgDetMain" />
           </div>
           <p className="article-content" style={{padding:"10px"}}>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis

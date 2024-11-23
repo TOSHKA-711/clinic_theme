@@ -10,6 +10,7 @@ export default function OfferCard() {
       <div className="card-img" style={{ width: "100%" }}>
         <img
           src="https://clinic-next-github.vercel.app/_next/image?url=%2Fmedia%2FDoctors%2F2.jpg&w=640&q=75"
+          alt="offer-card"
           style={{ width: "100%" }}
         />
       </div>
