@@ -52,6 +52,7 @@ export default function ServicesImage({ title }) {
           <img
             src={src}
             className= {`transition  ${className} `}
+            key={id}
             alt={`Doctor image ${id}`}
           />
         ))}
